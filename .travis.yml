@@ -1,0 +1,8 @@
+language: swift
+osx_image: xcode9.1
+script:
+- node firebase
+- fastlane test
+addons:
+hosts:
+- test.firebase.localhost

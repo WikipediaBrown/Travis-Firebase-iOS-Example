@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D60A7E20C966C4DCBDFD47 /* Pods_Travis_Firebase_iOS_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB78A2E780A184A4A62E302 /* Pods_Travis_Firebase_iOS_ExampleTests.framework */; };
+		289AD98782E3A6EA589401C0 /* Pods_Travis_Firebase_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17330A22EF752D77FE1EDF87 /* Pods_Travis_Firebase_iOS_Example.framework */; };
+		3EFAC340B65805BE38486215 /* Pods_Travis_Firebase_iOS_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736FE658FD21E56CABB90919 /* Pods_Travis_Firebase_iOS_ExampleUITests.framework */; };
 		5B5C1CD6200A9A1C00FCC4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C1CD5200A9A1C00FCC4AF /* AppDelegate.swift */; };
 		5B5C1CD8200A9A1C00FCC4AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C1CD7200A9A1C00FCC4AF /* ViewController.swift */; };
-		5B5C1CDB200A9A1C00FCC4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C1CD9200A9A1C00FCC4AF /* Main.storyboard */; };
 		5B5C1CDD200A9A1C00FCC4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C1CDC200A9A1C00FCC4AF /* Assets.xcassets */; };
 		5B5C1CE0200A9A1C00FCC4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C1CDE200A9A1C00FCC4AF /* LaunchScreen.storyboard */; };
 		5B5C1CEB200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C1CEA200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleTests.swift */; };
 		5B5C1CF6200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C1CF5200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleUITests.swift */; };
+		5B5C1D04200A9B4D00FCC4AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C1D03200A9B4D00FCC4AF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17330A22EF752D77FE1EDF87 /* Pods_Travis_Firebase_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travis_Firebase_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5C1CD2200A9A1C00FCC4AF /* Travis-Firebase-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis-Firebase-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5C1CD5200A9A1C00FCC4AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B5C1CD7200A9A1C00FCC4AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B5C1CDA200A9A1C00FCC4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B5C1CDC200A9A1C00FCC4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B5C1CDF200A9A1C00FCC4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5C1CE1200A9A1C00FCC4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,15 @@
 		5B5C1CF1200A9A1C00FCC4AF /* Travis-Firebase-iOS-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travis-Firebase-iOS-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5C1CF5200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travis_Firebase_iOS_ExampleUITests.swift; sourceTree = "<group>"; };
 		5B5C1CF7200A9A1C00FCC4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5C1D03200A9B4D00FCC4AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E449C04AD0013AA3A04160A /* Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleTests/Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		736FE658FD21E56CABB90919 /* Pods_Travis_Firebase_iOS_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travis_Firebase_iOS_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD47BFC7FDB855027970CF69 /* Pods-Travis-Firebase-iOS-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-Example/Pods-Travis-Firebase-iOS-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB78A2E780A184A4A62E302 /* Pods_Travis_Firebase_iOS_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travis_Firebase_iOS_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D6F660C3BAC59DC360D726 /* Pods-Travis-Firebase-iOS-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-Example/Pods-Travis-Firebase-iOS-Example.release.xcconfig"; sourceTree = "<group>"; };
+		D471EA69336A457187334505 /* Pods-Travis-Firebase-iOS-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleUITests/Pods-Travis-Firebase-iOS-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF7E57966FFA8CBE1CBCD622 /* Pods-Travis-Firebase-iOS-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleTests/Pods-Travis-Firebase-iOS-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC494A01AB62ECC55659A466 /* Pods-Travis-Firebase-iOS-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleUITests/Pods-Travis-Firebase-iOS-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289AD98782E3A6EA589401C0 /* Pods_Travis_Firebase_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D60A7E20C966C4DCBDFD47 /* Pods_Travis_Firebase_iOS_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFAC340B65805BE38486215 /* Pods_Travis_Firebase_iOS_ExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39500FE58C90CD3F34194393 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD47BFC7FDB855027970CF69 /* Pods-Travis-Firebase-iOS-Example.debug.xcconfig */,
+				D3D6F660C3BAC59DC360D726 /* Pods-Travis-Firebase-iOS-Example.release.xcconfig */,
+				DF7E57966FFA8CBE1CBCD622 /* Pods-Travis-Firebase-iOS-ExampleTests.debug.xcconfig */,
+				6E449C04AD0013AA3A04160A /* Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig */,
+				EC494A01AB62ECC55659A466 /* Pods-Travis-Firebase-iOS-ExampleUITests.debug.xcconfig */,
+				D471EA69336A457187334505 /* Pods-Travis-Firebase-iOS-ExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B5C1CC9200A9A1C00FCC4AF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				5B5C1CE9200A9A1C00FCC4AF /* Travis-Firebase-iOS-ExampleTests */,
 				5B5C1CF4200A9A1C00FCC4AF /* Travis-Firebase-iOS-ExampleUITests */,
 				5B5C1CD3200A9A1C00FCC4AF /* Products */,
+				39500FE58C90CD3F34194393 /* Pods */,
+				94E3715D82F16D77BEBD81CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +129,10 @@
 			children = (
 				5B5C1CD5200A9A1C00FCC4AF /* AppDelegate.swift */,
 				5B5C1CD7200A9A1C00FCC4AF /* ViewController.swift */,
-				5B5C1CD9200A9A1C00FCC4AF /* Main.storyboard */,
 				5B5C1CDC200A9A1C00FCC4AF /* Assets.xcassets */,
 				5B5C1CDE200A9A1C00FCC4AF /* LaunchScreen.storyboard */,
 				5B5C1CE1200A9A1C00FCC4AF /* Info.plist */,
+				5B5C1D03200A9B4D00FCC4AF /* GoogleService-Info.plist */,
 			);
 			path = "Travis-Firebase-iOS-Example";
 			sourceTree = "<group>";
@@ -125,6 +155,16 @@
 			path = "Travis-Firebase-iOS-ExampleUITests";
 			sourceTree = "<group>";
 		};
+		94E3715D82F16D77BEBD81CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17330A22EF752D77FE1EDF87 /* Pods_Travis_Firebase_iOS_Example.framework */,
+				CEB78A2E780A184A4A62E302 /* Pods_Travis_Firebase_iOS_ExampleTests.framework */,
+				736FE658FD21E56CABB90919 /* Pods_Travis_Firebase_iOS_ExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B5C1CFA200A9A1C00FCC4AF /* Build configuration list for PBXNativeTarget "Travis-Firebase-iOS-Example" */;
 			buildPhases = (
+				6362C0836AC2D2324CDC3B19 /* [CP] Check Pods Manifest.lock */,
 				5B5C1CCE200A9A1C00FCC4AF /* Sources */,
 				5B5C1CCF200A9A1C00FCC4AF /* Frameworks */,
 				5B5C1CD0200A9A1C00FCC4AF /* Resources */,
+				E3ACFA1BB500EDCD46BC7453 /* [CP] Embed Pods Frameworks */,
+				9F44D9C550815DE139873FEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B5C1CFD200A9A1C00FCC4AF /* Build configuration list for PBXNativeTarget "Travis-Firebase-iOS-ExampleTests" */;
 			buildPhases = (
+				B078D5962698179556DA92DC /* [CP] Check Pods Manifest.lock */,
 				5B5C1CE2200A9A1C00FCC4AF /* Sources */,
 				5B5C1CE3200A9A1C00FCC4AF /* Frameworks */,
 				5B5C1CE4200A9A1C00FCC4AF /* Resources */,
+				527368137B9EC53E11F71916 /* [CP] Embed Pods Frameworks */,
+				DD30404EBDC338CD13369051 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B5C1D00200A9A1C00FCC4AF /* Build configuration list for PBXNativeTarget "Travis-Firebase-iOS-ExampleUITests" */;
 			buildPhases = (
+				5483E599DDC3568B4E915924 /* [CP] Check Pods Manifest.lock */,
 				5B5C1CED200A9A1C00FCC4AF /* Sources */,
 				5B5C1CEE200A9A1C00FCC4AF /* Frameworks */,
 				5B5C1CEF200A9A1C00FCC4AF /* Resources */,
+				AFD2ADA94C439F75C8F24D84 /* [CP] Embed Pods Frameworks */,
+				D6E3C88EE85228033A144611 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +283,7 @@
 			files = (
 				5B5C1CE0200A9A1C00FCC4AF /* LaunchScreen.storyboard in Resources */,
 				5B5C1CDD200A9A1C00FCC4AF /* Assets.xcassets in Resources */,
-				5B5C1CDB200A9A1C00FCC4AF /* Main.storyboard in Resources */,
+				5B5C1D04200A9B4D00FCC4AF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +302,180 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		527368137B9EC53E11F71916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleTests/Pods-Travis-Firebase-iOS-ExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleTests/Pods-Travis-Firebase-iOS-ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5483E599DDC3568B4E915924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travis-Firebase-iOS-ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6362C0836AC2D2324CDC3B19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travis-Firebase-iOS-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F44D9C550815DE139873FEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-Example/Pods-Travis-Firebase-iOS-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD2ADA94C439F75C8F24D84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleUITests/Pods-Travis-Firebase-iOS-ExampleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleUITests/Pods-Travis-Firebase-iOS-ExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B078D5962698179556DA92DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travis-Firebase-iOS-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E3C88EE85228033A144611 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleUITests/Pods-Travis-Firebase-iOS-ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD30404EBDC338CD13369051 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleTests/Pods-Travis-Firebase-iOS-ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3ACFA1BB500EDCD46BC7453 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-Example/Pods-Travis-Firebase-iOS-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travis-Firebase-iOS-Example/Pods-Travis-Firebase-iOS-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B5C1CCE200A9A1C00FCC4AF /* Sources */ = {
@@ -296,14 +519,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B5C1CD9200A9A1C00FCC4AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B5C1CDA200A9A1C00FCC4AF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B5C1CDE200A9A1C00FCC4AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +639,7 @@
 		};
 		5B5C1CFB200A9A1C00FCC4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD47BFC7FDB855027970CF69 /* Pods-Travis-Firebase-iOS-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +655,7 @@
 		};
 		5B5C1CFC200A9A1C00FCC4AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D6F660C3BAC59DC360D726 /* Pods-Travis-Firebase-iOS-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +671,7 @@
 		};
 		5B5C1CFE200A9A1C00FCC4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7E57966FFA8CBE1CBCD622 /* Pods-Travis-Firebase-iOS-ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +689,7 @@
 		};
 		5B5C1CFF200A9A1C00FCC4AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E449C04AD0013AA3A04160A /* Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +707,7 @@
 		};
 		5B5C1D01200A9A1C00FCC4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC494A01AB62ECC55659A466 /* Pods-Travis-Firebase-iOS-ExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +724,7 @@
 		};
 		5B5C1D02200A9A1C00FCC4AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D471EA69336A457187334505 /* Pods-Travis-Firebase-iOS-ExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
