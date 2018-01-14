@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Travis-Firebase-iOS-ExampleTests.xctest' tests='2' failures='0'>
+  <testsuite name='Travis_Firebase_iOS_ExampleUITests.Travis_Firebase_iOS_ExampleUITests' tests='1' failures='0'>
+    <testcase classname='Travis_Firebase_iOS_ExampleUITests.Travis_Firebase_iOS_ExampleUITests' name='testExample' time='6.493'/>
+  </testsuite>
+  <testsuite name='Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests' tests='1' failures='0'>
+    <testcase classname='Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests' name='testFirebaseBasicOpOnTheOps' time='0.006'/>
+  </testsuite>
+</testsuites>
