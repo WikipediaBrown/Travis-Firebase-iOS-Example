@@ -112,8 +112,6 @@
         <section id="counters">
           <h2 id="test-count"><span class="number">2</span> tests</h2>
           
-            <h2 id="fail-count"><span class="number">1</span> failures</h2>
-          
         </section>
         <section id="segment-bar">
           <a id="all-segment" onclick="selectSegment(this);" class="selected">All</a><a id="failing-segment" onclick="selectSegment(this);">Failing</a><a id="passing-segment" onclick="selectSegment(this);">Passing</a>
@@ -134,7 +132,7 @@
               <tr class="test passing "  onclick="toggleDetails('testExample');">
                 <td>
                   
-                    <h3 class="time">5.192s</h3>
+                    <h3 class="time">5.037s</h3>
                   
                 </td>
                 <td><h3 class="title">testExample</h3></td>
@@ -146,7 +144,7 @@
         </section>
       
         
-        <section class="test-suite failing" id="Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests">
+        <section class="test-suite passing" id="Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests">
           <section class="heading" onclick="toggleTests(this);">
             <h3 class="title">Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests</h3>
           </section>
@@ -154,29 +152,14 @@
             <table>
             
               
-              <tr class="test failing "  onclick="toggleDetails('testFirebaseBasicOpOnTheOps');">
+              <tr class="test passing "  onclick="toggleDetails('testFirebaseBasicOpOnTheOps');">
                 <td>
+                  
+                    <h3 class="time">0.018s</h3>
                   
                 </td>
                 <td><h3 class="title">testFirebaseBasicOpOnTheOps</h3></td>
               </tr>
-              
-                <tr class="details failing testFirebaseBasicOpOnTheOps">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">Asynchronous wait failed: Exceeded timeout of 1 seconds, with unfulfilled expectations: "Test basic Firebase read operation.".</section>
-                    
-                    
-                      <section class="test-detail snippet">        <span class="p">}</span>
-        <span class="nf">wait</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="p">[</span><span class="n">expectation</span><span class="p">],</span> <span class="nv">timeout</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">)</span>
-        
-</section>
-                      <section class="test-detail">/Users/wikipediabrown/Documents/My Apps/Travis-Firebase-iOS-Example/Travis-Firebase-iOS-ExampleTests/Travis_Firebase_iOS_ExampleTests.swift:25</section>
-                    
-                    
-                  </td>
-                </tr>
               
             
             </table>

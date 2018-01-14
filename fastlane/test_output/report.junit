@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='Travis-Firebase-iOS-ExampleTests.xctest' tests='2' failures='1'>
+<testsuites name='Travis-Firebase-iOS-ExampleTests.xctest' tests='2' failures='0'>
   <testsuite name='Travis_Firebase_iOS_ExampleUITests.Travis_Firebase_iOS_ExampleUITests' tests='1' failures='0'>
-    <testcase classname='Travis_Firebase_iOS_ExampleUITests.Travis_Firebase_iOS_ExampleUITests' name='testExample' time='5.192'/>
+    <testcase classname='Travis_Firebase_iOS_ExampleUITests.Travis_Firebase_iOS_ExampleUITests' name='testExample' time='5.037'/>
   </testsuite>
-  <testsuite name='Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests' tests='1' failures='1'>
-    <testcase classname='Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests' name='testFirebaseBasicOpOnTheOps'>
-      <failure message='Asynchronous wait failed: Exceeded timeout of 1 seconds, with unfulfilled expectations: &quot;Test basic Firebase read operation.&quot;.'>Travis-Firebase-iOS-ExampleTests/Travis_Firebase_iOS_ExampleTests.swift:25</failure>
-    </testcase>
+  <testsuite name='Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests' tests='1' failures='0'>
+    <testcase classname='Travis_Firebase_iOS_ExampleTests.Travis_Firebase_iOS_ExampleTests' name='testFirebaseBasicOpOnTheOps' time='0.018'/>
   </testsuite>
 </testsuites>
