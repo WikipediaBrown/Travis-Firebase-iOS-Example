@@ -17,6 +17,12 @@ class ViewController: UIViewController {
         Database.database().reference().observe(.value) { (snapshot) in
             print(snapshot.value ?? "no snap nigga")
         }
+        Auth.auth().signIn(withEmail: "thoings", password: "throngs") { (user, error) in
+            print("auth")
+            print(user?.uid ?? "no User ID")
+            print(error?.localizedDescription ?? "no User ID")
+            print("auth")
+        }
     }
     
 }

@@ -28,7 +28,6 @@ platform :ios do
              scheme: "Travis-Firebase-iOS-Example",
              clean: true,
              code_coverage: true,
-             devices: ["iPhone 8"],
              output_directory: "./fastlane/test_output"
              )
     end
