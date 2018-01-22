@@ -17,6 +17,7 @@
 		5B5C1CEB200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C1CEA200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleTests.swift */; };
 		5B5C1CF6200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C1CF5200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleUITests.swift */; };
 		5B5C1D04200A9B4D00FCC4AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C1D03200A9B4D00FCC4AF /* GoogleService-Info.plist */; };
+		5B732C752015497A0014CEF8 /* GoogleService-Info--.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B732C742015497A0014CEF8 /* GoogleService-Info--.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5B5C1CF5200A9A1C00FCC4AF /* Travis_Firebase_iOS_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travis_Firebase_iOS_ExampleUITests.swift; sourceTree = "<group>"; };
 		5B5C1CF7200A9A1C00FCC4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B5C1D03200A9B4D00FCC4AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B732C742015497A0014CEF8 /* GoogleService-Info--.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info--.plist"; sourceTree = "<group>"; };
 		6E449C04AD0013AA3A04160A /* Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-ExampleTests/Pods-Travis-Firebase-iOS-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		736FE658FD21E56CABB90919 /* Pods_Travis_Firebase_iOS_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travis_Firebase_iOS_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD47BFC7FDB855027970CF69 /* Pods-Travis-Firebase-iOS-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travis-Firebase-iOS-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travis-Firebase-iOS-Example/Pods-Travis-Firebase-iOS-Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				5B5C1CDC200A9A1C00FCC4AF /* Assets.xcassets */,
 				5B5C1CDE200A9A1C00FCC4AF /* LaunchScreen.storyboard */,
 				5B5C1CE1200A9A1C00FCC4AF /* Info.plist */,
+				5B732C742015497A0014CEF8 /* GoogleService-Info--.plist */,
 				5B5C1D03200A9B4D00FCC4AF /* GoogleService-Info.plist */,
 			);
 			path = "Travis-Firebase-iOS-Example";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5C1CE0200A9A1C00FCC4AF /* LaunchScreen.storyboard in Resources */,
+				5B732C752015497A0014CEF8 /* GoogleService-Info--.plist in Resources */,
 				5B5C1CDD200A9A1C00FCC4AF /* Assets.xcassets in Resources */,
 				5B5C1D04200A9B4D00FCC4AF /* GoogleService-Info.plist in Resources */,
 			);

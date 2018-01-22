@@ -14,15 +14,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
-        Database.database().reference().observe(.value) { (snapshot) in
+        
+        Database.database().reference().child("this").child("\(Date())").setValue("that")
+
+        Database.database().reference().child("this").observe(.value) { (snapshot) in
+            print("snap")
             print(snapshot.value ?? "no snap nigga")
+            print("snap")
         }
-        Auth.auth().signIn(withEmail: "thoings", password: "throngs") { (user, error) in
+        print("ready")
+        Auth.auth().signInAnonymously { (user, error) in
             print("auth")
-            print(user?.uid ?? "no User ID")
-            print(error?.localizedDescription ?? "no User ID")
+            print("User ID: " + (user?.uid ?? "no User ID"))
+            print(error?.localizedDescription ?? "no Error")
             print("auth")
         }
+        print("ready")
     }
     
 }
