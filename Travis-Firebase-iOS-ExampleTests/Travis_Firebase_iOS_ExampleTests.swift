@@ -22,7 +22,7 @@ class Travis_Firebase_iOS_ExampleTests: XCTestCase {
             XCTAssertTrue(snapshot.value != nil, "Not what you expected")
             expectation.fulfill()
         }
-        wait(for: [expectation], timeout: 1.0)
+        wait(for: [expectation], timeout: 10.0)
         
     }
     
