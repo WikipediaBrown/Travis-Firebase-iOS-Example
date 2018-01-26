@@ -16,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Configure Firebase
+        print("configuring firebase")
         FirebaseApp.configure()
+        print("firebase configured")
         // Setup primary window and its root view controller.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = ViewController()

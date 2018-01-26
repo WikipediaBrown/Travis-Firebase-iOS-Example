@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         Database.database().reference().observe(.value) { (snapshot) in
             print(snapshot.value ?? "no snap nigga")
         }
+        Auth.auth().signInAnonymously { (user, error) in
+            print(user?.uid)
+            print(error?.localizedDescription)
+        }
     }
     
 }

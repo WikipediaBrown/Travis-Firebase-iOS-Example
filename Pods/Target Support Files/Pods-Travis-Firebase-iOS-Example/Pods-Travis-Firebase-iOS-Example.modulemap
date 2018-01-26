@@ -1,0 +1,6 @@
+framework module Pods_Travis_Firebase_iOS_Example {
+  umbrella header "Pods-Travis-Firebase-iOS-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
